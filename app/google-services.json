@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "114919893649",
+    "project_id": "fitnessapp-2e839",
+    "storage_bucket": "fitnessapp-2e839.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114919893649:android:d28c404fc5b3940b452d30",
+        "android_client_info": {
+          "package_name": "com.nexis.fitnesapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3WuBN_TftzLIQ739uMWC__bEjsWwCVBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

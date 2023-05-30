@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/item_sekil">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/deimageyemek"
+            android:layout_width="10dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="68dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtyemekadi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="yemek adi"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:gravity="center">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtkalori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="kalori"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:gravity="center">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btnyedim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yedim"
+                android:textColor="@color/white"
+                android:textSize="23sp"
+                android:gravity="center"
+                android:background="@drawable/btnsekil">
+
+            </Button>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
